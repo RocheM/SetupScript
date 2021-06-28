@@ -1,9 +1,9 @@
 # #!/bin/sh
 
 # Homebrew Script for OSX
-# To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
+# To execute: save and `chmod +x ./SetupScript.sh` then `./SetupScript.sh`
 
-options=(oracle-jdk mysql@5.7)
+options=(oracle-jdk mysql@5.7 intellij-idea docker)
 selections=(N N)
 installBrew=N
 
