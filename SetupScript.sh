@@ -3,8 +3,8 @@
 # Homebrew Script for OSX
 # To execute: save and `chmod +x ./SetupScript.sh` then `./SetupScript.sh`
 
-options=(oracle-jdk mysql@5.7 intellij-idea docker)
-selections=(N N)
+options=(oracle-jdk mysql@5.7 intellij-idea docker mysqlworkbench)
+selections=(N N N N N)
 installBrew=N
 
 
